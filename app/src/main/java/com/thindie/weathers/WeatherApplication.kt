@@ -8,6 +8,5 @@ class WeatherApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        println("WeatherApplication onCreate, backStack: ${backStack.hashCode()}")
     }
 }
